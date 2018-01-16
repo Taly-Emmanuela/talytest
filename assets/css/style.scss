@@ -35,7 +35,7 @@
     margin: 0 -0.3rem;
 
     .flex-item {
-        background: @core-mediumgrey;
+        background: #999999;
         flex: 1 1 calc(20% - 1rem);
         margin: 0.3rem;
         padding: 0.2rem;
@@ -48,13 +48,7 @@
         text-decoration: none;
 
         &:hover {
-            background: @core-purple;
-        }
-        &.start-here {
-            background: @core-lightgreen;
-            &:hover {
-                background: darken(@core-lightgreen,10%);
-            }
+            background: #4822A9;
         }
     }
 }

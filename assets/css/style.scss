@@ -28,3 +28,33 @@
 .page-header {
     background-image: url(../images/image-bg.jpg);
 }
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 -0.3rem;
+
+    .flex-item {
+        background: @core-mediumgrey;
+        flex: 1 1 calc(20% - 1rem);
+        margin: 0.3rem;
+        padding: 0.2rem;
+        text-align: center;
+        line-height: 12rem;
+        font-weight: 600;
+        color: #fff;
+        min-width: 12rem;
+        transition: background 0.5s;
+        text-decoration: none;
+
+        &:hover {
+            background: @core-purple;
+        }
+        &.start-here {
+            background: @core-lightgreen;
+            &:hover {
+                background: darken(@core-lightgreen,10%);
+            }
+        }
+    }
+}

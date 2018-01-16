@@ -2,9 +2,7 @@
 layout: default
 ---
 
-# [Intro](intro)
-
-
+# [Intro](#intro)Intro
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 

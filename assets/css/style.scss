@@ -3,8 +3,10 @@
 
 @import 'jekyll-theme-cayman';
 
-.site-header {
+.grey-bg {
     background-color:#E7E7E7;
+}
+.site-header {
     text-align: center;
     @include large {
     max-width: 64rem;

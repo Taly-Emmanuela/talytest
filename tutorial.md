@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: tutorial
 ---
 
-## Tutotial 
+{% include tutorial.html %}
 
 _yay_
 

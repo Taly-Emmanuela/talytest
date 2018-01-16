@@ -4,6 +4,8 @@
 @import 'jekyll-theme-cayman';
 
 .site-header {
+    background-color:#E7E7E7;
+    text-align: center;
     @include large {
     max-width: 64rem;
     padding: 2rem 6rem;
@@ -20,4 +22,7 @@
     padding: 2rem 1rem;
     font-size: 1rem;
   }
+}
+.page-header {
+    background-image: url(../images/image-bg.jpg);
 }

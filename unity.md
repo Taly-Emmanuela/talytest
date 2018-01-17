@@ -2,7 +2,7 @@
 layout: default-home
 ---
 
-[[ Intro | intro ]]
+[Intro](/Taly-Emmanuela/talytest/intro)
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 

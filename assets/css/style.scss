@@ -55,3 +55,26 @@
         }
     }
 }
+
+.btn {
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+    font-size: 0.9rem;
+    padding: 1.2em 3em;
+    min-width: 15rem;
+    text-align: center;
+    transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0;
+
+    &:hover {
+        text-decoration: none;
+        background: $core-purple;
+        color: white;
+        border-color: $core-purple;
+    }
+}

@@ -2,11 +2,13 @@
 layout: default-home
 ---
 
-# [](intro)Intro
+[[ Intro | intro ]]
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
+
+[# Link to another page](another-page).
 
 There should be whitespace between paragraphs.
 

@@ -2,7 +2,8 @@
     <header class="site-header">
         <a href="{{ site.github.repository_url }}"><img src="assets/images/realwear-logo.png" width="141"/></a>
         <div class="text-right">
-        <img src="assets/images/github.png" height="34"/>
+            <span>{{ site.title | default: site.github.repository_name }}</span>
+            <img src="assets/images/github.png" height="34"/>
         </div>
     </header>
 </div>
